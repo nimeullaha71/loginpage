@@ -28,6 +28,7 @@ class LoginScreen extends StatelessWidget {
               onPressed: () {
                 // Navigate to Home after login
                 Navigator.pushReplacementNamed(context, '/home');
+
               },
               child: Text('Log In'),
             ),
